@@ -9,6 +9,6 @@ Implementar un sistema de autenticación seguro mediante **JSON Web Tokens (JWT)
 
 ## Instrucciones para clonar el repositorio
 ```bash
-git clone <URL_DEL_REPO>
-cd <NOMBRE_DEL_REPO>
+git clone git@github.com:SFC99/Proyecto-Payload.git
+cd 
 
