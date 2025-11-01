@@ -57,9 +57,7 @@ El *payload* del JWT permitirá la **transmisión verificada de información de 
 
 ## 🏷️ Commit / Tag inicial
 
-- **Commit hash:** `a1b2c3d-initial-jwt-setup`  
-- **Tag:** `v0.1.0-initial`  
-*(Marca el inicio formal del desarrollo del módulo JWT y su documentación técnica.)*
+
 
 ---
 
