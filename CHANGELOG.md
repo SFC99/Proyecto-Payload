@@ -5,4 +5,4 @@
 
 ## 2025-11-07
 - Edicion de README y subida de archivos — Tarea5 — Angel David Morales Palomo, Sofía Martínez Cisneros
-Subida de archivos, configuracion de VM, pruebas de conexion entre VM, creacion de main.cpp para Linux y Windows — Tarea6 — Angel David Morales Palomo
+- Subida de archivos, configuracion de VM, pruebas de conexion entre VM, creacion de main.cpp para Linux y Windows — Tarea6 — Angel David Morales Palomo
