@@ -2,7 +2,7 @@ Pruebas y Evidencias
 
 ##1.Snapshot previo de la VM
 Esta captura muestra el estado de la máquina virtual antes de ejecutar el binario, con la fecha y hora visible.
-/evidence/Snapshot.png)
+![Snapshot previo](../evidence/Snapshot.png)
 
 =====
 
