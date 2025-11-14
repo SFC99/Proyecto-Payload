@@ -7,15 +7,15 @@ Implementar un sistema de autenticación seguro mediante **JSON Web Tokens (JWT)
 - Sistemas operativos: Windows / Linux  
 - Arquitectura: x86_64 / amd64
 
-/proyecto-jwt
-│
-├─ servidor_jwt.h # Funciones para JWT y gestión de usuarios
-├─ servidor_jwt.cpp # Main del servidor
-├─ cliente_jwt.h # Funciones cliente para login y validación
-├─ cliente_jwt.cpp # Main del cliente Windows
-├─ usuarios.txt # Lista de usuarios y contraseñas (usuario:password)
-├─ tokens.txt # Tokens generados por el servidor (usuario:JWT)
-└─ README.md # Este archivo
+/proyecto-jwt<br>
+│ <br>
+├─ servidor_jwt.h # Funciones para JWT y gestión de usuarios <br>
+├─ servidor_jwt.cpp # Main del servidor <br>
+├─ cliente_jwt.h # Funciones cliente para login y validación <br>
+├─ cliente_jwt.cpp # Main del cliente Windows <br>
+├─ usuarios.txt # Lista de usuarios y contraseñas (usuario:password) <br>
+├─ tokens.txt # Tokens generados por el servidor (usuario:JWT) <br>
+└─ README.md # Este archivo 
 
 ---
 
@@ -64,13 +64,13 @@ g++ servidor_jwt.cpp -o servidor_jwt -std=c++17 -pthread
 
 El servidor escucha en http://0.0.0.0:8080.
 
-Endpoints disponibles:
-POST /login → recibe JSON { "usuario": "...", "password": "..." } y devuelve JWT.
-POST /validate → recibe JSON { "token": "..." } y valida el JWT.
-GET /protected → requiere header Authorization: Bearer <JWT>.
+Endpoints disponibles:<br>
+POST /login → recibe JSON { "usuario": "...", "password": "..." } y devuelve JWT.<br>
+POST /validate → recibe JSON { "token": "..." } y valida el JWT.<br>
+GET /protected → requiere header Authorization: Bearer <JWT>.<br>
 
-### 🖥️ Cliente Windows
-g++ cliente_jwt.cpp -o cliente_jwt -std=c++17 -lws2_32
+### 🖥️ Cliente Windows<br>
+g++ cliente_jwt.cpp -o cliente_jwt -std=c++17 -lws2_32<br>
 cliente_jwt.exe <IP_servidor> <puerto>
 
 
@@ -105,5 +105,5 @@ Uso de endpoints /login, /validate, /protected 🔑
 
 ## Instrucciones para clonar el repositorio
 ```bash
-git clone git@github.com:SFC99/Proyecto-Payload.git
-cd 
+git clone https://github.com/SFC99/Proyecto-Payload.git
+cd "C:\Users\TuUsuario\Proyecto-Payload"
