@@ -18,7 +18,7 @@ g++ server_jwt.cpp -o servidor
 
 ##3.Analisis estatico del binario (Ghidra)
 Se identifico de manera correcta la función del binario main, donde se pueden observar las variables locales, asignaciones y las funciones llamadas como sale ahi, "cargarUsuarios" y manejo de http
-![Función main en Ghidra](../evidence/funcion main en ghidra.png)
+![Función main en Ghidra](../evidence/funcion%20main%20en%20ghidra.png)
 
 En el análisis se pudo generar el archivo .gar y proyecto Dhidra completo que se guardo en:
 /analysis/AnalisisServidor_2025_11_14.gar
