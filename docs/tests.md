@@ -8,7 +8,8 @@ Esta captura muestra el estado de la máquina virtual antes de ejecutar el binar
 
 ##2.Ejecución del binario en la VM
 Se compila y ejecuta el binario dentro de la máquina virtual Linux y la salida del programa lo muestra en la consola. 
-/evidence/ejecucion de binario.jpeg)
+![Ejecución del binario](../evidence/ejecucion%20de%20binario.jpeg)
+
 ##Comandos ejecutados:
 g++ server_jwt.cpp -o servidor
 ./servidor
@@ -17,7 +18,8 @@ g++ server_jwt.cpp -o servidor
 
 ##3.Analisis estatico del binario (Ghidra)
 Se identifico de manera correcta la función del binario main, donde se pueden observar las variables locales, asignaciones y las funciones llamadas como sale ahi, "cargarUsuarios" y manejo de http
-/evidence/funcion main en ghidra.png)
+![Función main en Ghidra](../evidence/funcion main en ghidra.png)
+
 En el análisis se pudo generar el archivo .gar y proyecto Dhidra completo que se guardo en:
 /analysis/AnalisisServidor_2025_11_14.gar
 
