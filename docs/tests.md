@@ -35,6 +35,5 @@ Estos archivos son del análisis estático que se hizo.
 ##5.Archivos fuente incluidos
 En el directorio de "source" tenemos los códigos fuente originales tanto para la maquina Linux que se uso como servidor en el proyecto, como para la maquina windows que se uso como cliente.
 Estos archivos se encuentran como "PIA LINUX" y "W10"
-![Source](source.png)
-
+![Source](../evidence/source.png)
 
