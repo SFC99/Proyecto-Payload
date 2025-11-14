@@ -28,9 +28,13 @@ En el análisis se pudo generar el archivo .gar y proyecto Dhidra completo que s
 ##4.Archivos de análisis incluidos
 En la carpeta con el nombre "analysis" podemos ver los archivos "AnalisisServidor.gpr", "AnalisisServidor.rep" y el archivo que fue exportar .gar.
 Estos archivos son del análisis estático que se hizo.
+![Analysis](../evidence/analysis.png)
 
 =====
 
 ##5.Archivos fuente incluidos
 En el directorio de "source" tenemos los códigos fuente originales tanto para la maquina Linux que se uso como servidor en el proyecto, como para la maquina windows que se uso como cliente.
 Estos archivos se encuentran como "PIA LINUX" y "W10"
+![Source](source.png)
+
+
