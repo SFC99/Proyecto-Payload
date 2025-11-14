@@ -28,7 +28,7 @@ En el análisis se pudo generar el archivo .gar y proyecto Dhidra completo que s
 ##4.Archivos de análisis incluidos
 En la carpeta con el nombre "analysis" podemos ver los archivos "AnalisisServidor.gpr", "AnalisisServidor.rep" y el archivo que fue exportar .gar.
 Estos archivos son del análisis estático que se hizo.
-![Analysis](../evidence/analysis.png)
+![Analysis](../evidence/Analysis.png)
 
 =====
 
