@@ -15,12 +15,10 @@ Este avance corresponde a los commit con hash ``, `` y ``  y están relacionados
 - Juan Angel Rodriguez Bulnes
 - Sofía Martínez Cisneros 
 
----
 
 ## 1. Resumen ejecutivo
 Este proyecto implementa un payload benigno basado en un sistema completo de autenticación mediante JSON Web Tokens (JWT), compuesto por un servidor en C++ que gestiona credenciales y tokens, y un cliente que envía solicitudes de login, validación y acceso a rutas protegidas. El objetivo es demostrar un flujo realista de autenticación sin mantener sesiones persistentes y analizar técnica y éticamente su funcionamiento mediante pruebas controladas en un entorno aislado.
 
----
 
 ## 2. Descripción del payload y límites éticos
 El payload consiste en un servidor JWT escrito en C++ que:
@@ -38,7 +36,6 @@ El cliente, también en C++, envía solicitudes HTTP y procesa las respuestas.
 - Las pruebas se limitaron a credenciales controladas y tráfico local.
 - El alcance se mantuvo conforme a ETHICS.md previamente definido.
 
----
 
 ## 3. Diseño e implementación
 ### Estructura general
@@ -59,7 +56,6 @@ El cliente, también en C++, envía solicitudes HTTP y procesa las respuestas.
 - Manejo de memoria automático mediante objetos y RAII; no se utilizan `new`/`delete` manuales.
 - Se dividió la lógica en clases para mantener separación clara entre servidor, cliente y manejo de usuarios.
 
----
 
 ## 4. Procedimiento de pruebas ejecutadas
 Las pruebas se realizaron en una VM aislada con:
@@ -87,7 +83,6 @@ g++ ClienteJWT.cpp -o cliente -std=c++17
 
 Todos los pasos están documentados en `/docs/tests.md` con outputs textuales y referencias a capturas en `/evidence/`.
 
----
 
 ## 5. Análisis estático (hallazgos iniciales)
 El binario del servidor fue cargado en Ghidra y se encontraron:
@@ -113,7 +108,6 @@ El binario del servidor fue cargado en Ghidra y se encontraron:
 
 Capturas del proyecto Ghidra fueron añadidas en `/evidence/`.
 
----
 
 ## 6. Análisis dinámico (hallazgos iniciales)
 - El servidor se ejecutó correctamente en `0.0.0.0:8080`.
@@ -126,7 +120,6 @@ Capturas del proyecto Ghidra fueron añadidas en `/evidence/`.
 Diferencias entre comportamiento esperado y observado:  
 **Ninguna relevante**, salvo la necesidad de asegurar dependencias externas al compilar (httplib y json).
 
----
 
 ## 7. Riesgos identificados y mitigaciones aplicadas
 | Riesgo | Mitigación |
@@ -136,7 +129,6 @@ Diferencias entre comportamiento esperado y observado:
 | Lectura de archivos en texto plano | Control estricto del entorno y permisos en VM |
 | Dependencias externas no validadas | Se establecieron versiones específicas y se probaron en laboratorio |
 
----
 
 ## 8. Trabajo pendiente y plan para la entrega final
 Para completar el proyecto en la versión final se tiene previsto:
@@ -155,6 +147,5 @@ Para completar el proyecto en la versión final se tiene previsto:
 - Validación explícita de JSON malformado.  
 - Mensajes más informativos en caso de fallo durante login o validación.
 
----
 
 
