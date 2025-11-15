@@ -39,13 +39,15 @@ El cliente, también en C++, envía solicitudes HTTP y procesa las respuestas.
 
 ## 3. Diseño e implementación
 ### Estructura general
+```text
 /src/
-├─ ClienteJWT.cpp / ClienteJWT.h # Lógica del cliente, envío de solicitudes
-├─ ServidorJWT.cpp / ServidorJWT.h # Lógica del servidor, endpoints y JWT
-├─ Usuarios.cpp / Usuarios.h # Carga y validación de usuarios
-├─ main_cliente.cpp # Punto de entrada del cliente
-├─ main_servidor.cpp # Punto de entrada del servidor
-└─ p.txt # Datos auxiliares
+├─ ClienteJWT.cpp / ClienteJWT.h    # Lógica del cliente, envío de solicitudes
+├─ ServidorJWT.cpp / ServidorJWT.h  # Lógica del servidor, endpoints y JWT
+├─ Usuarios.cpp / Usuarios.h        # Carga y validación de usuarios
+├─ main_cliente.cpp                 # Punto de entrada del cliente
+├─ main_servidor.cpp                # Punto de entrada del servidor
+└─ p.txt                            # Datos auxiliares
+```
 
 ### Decisiones de implementación
 - Lenguaje: **C++17** para compatibilidad multiplataforma.
