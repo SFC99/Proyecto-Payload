@@ -87,7 +87,8 @@ Todos los pasos están documentados en `/docs/tests.md` con outputs textuales y 
 
 
 ## 5. Análisis estático (hallazgos iniciales)
-El binario del servidor fue cargado en Ghidra y se encontraron:
+El binario del servidor fue cargado en Ghidra y se realizó un análisis de su estructura interna.
+Durante este proceso se identificaron los siguientes elementos relevantes:
 
 ### Funciones principales reconocidas:
 - `generarJWT()`
