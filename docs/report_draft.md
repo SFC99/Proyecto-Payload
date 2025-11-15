@@ -11,11 +11,9 @@ Este avance corresponde a los commit con hash ``, `` y ``  y están relacionados
 
 **Integrantes:**
 
-| Nombre completo |
-|------------------|
-| Angel David Morales Palomo |
-| Juan Angel Rodriguez Bulnes |
-| Sofía Martínez Cisneros |    
+- Angel David Morales Palomo
+- Juan Angel Rodriguez Bulnes
+- Sofía Martínez Cisneros 
 
 ---
 
