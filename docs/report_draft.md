@@ -5,7 +5,7 @@ Este avance corresponde a los commit con hash `666a8d5`, `17c1f33` y `fcc2949`  
 
 
 # 3er Avance PIA — Borrador del Reporte Técnico
-Este avance corresponde a los commit con hash ``, `` y ``  y están relacionados con el tag `3er-avance`.
+Este avance corresponde a los commit con hash `8efcf0d`, `ead5ab9`, `28e898d`, `3b10dd6` y `6296302`  y están relacionados con el tag `3er-avance`.
 
 **Proyecto:** Payload benigno de autenticación JWT  
 
