@@ -17,7 +17,7 @@ VM Cliente (Windows 10)
 - VirtualBox
 - MinGW 
 
-## Dependencias y librerías usadas
+## Librerías usadas
 - cpp-httplib
 - nlohmann/json.hpp
 
