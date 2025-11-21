@@ -1,4 +1,5 @@
 #Maquinas virtuales utilizadas:
+
 VM Servidor (Kali Linux)
 -Sistema operativo: Kali Linux 2024.1
 -IP interna: 192.168.10.1
