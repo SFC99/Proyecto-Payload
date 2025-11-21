@@ -77,4 +77,34 @@ Todos los cambios notables de este proyecto se documentan a continuación.
 - **Delete main.cpp** — `b0edec6`  
   Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
 
-### 📝
+## [2025-11-20]
+
+### ✨ Subidas de archivos
+- **Add files via upload** — `fcf222f`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Add files via upload** — `3b4dcea`  
+  Autor: S0WBR4 <133049076+S0WBR4@users.noreply.github.com>
+
+### 📝 Actualizaciones / Mejoras
+- **Update DELIVERY_CHECKLIST with completed items** — `80f3206`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Update servidor_jwt.h** — `7d2db62`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Fix formatting and improve server code structure** — `eb68f20`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Update Usuarios.h** — `9f56b30`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Update Usuarios.cpp** — `cdea9c8`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Update ServidorJWT.h** — `db348c2`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Enhance main_cliente.cpp with comments** — `09766fd`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Enhance documentation in ClienteJWT.h** — `388eb2a`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+- **Update ClienteJWT.cpp** — `6e2969c`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
+
+### 🗑️ Eliminaciones
+- **Delete source/PI** — `ad06ce3`  
+  Autor: Sofia C <42685693+SFC99@users.noreply.github.com>
