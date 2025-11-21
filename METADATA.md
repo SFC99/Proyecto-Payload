@@ -20,8 +20,4 @@ VM Cliente (Windows 10)
 ## Dependencias y librerías usadas
 - cpp-httplib
 - nlohmann/json.hpp
-- Archivos propios:
-  - ServidorJWT.cpp
-  - servidor_jwt.h
-  - Usuarios.cpp
-  - Usuarios.h
+
