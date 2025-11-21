@@ -10,7 +10,7 @@
 using namespace httplib;
 using json = nlohmann::json;
 
-const std::string SECRET_KEY = "clave_super_secreta";
+const std::string SECRET_KEY = "clave_super_secreta"; // Clave para firmar JWT
 const std::string USUARIOS_FILE = "usuarios.txt";
 const std::string TOKENS_FILE   = "tokens.txt";
 
@@ -78,3 +78,4 @@ bool obtenerToken(const std::string& usuario, std::string& token_out) {
     }
     return false;
 }
+
