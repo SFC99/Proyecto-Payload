@@ -7,7 +7,7 @@
 using json = nlohmann::json;
 using namespace httplib;
 int main() {
-    auto usuarios = cargarUsuarios();          // <- ahora sí cargamos fuera
+    auto usuarios = cargarUsuarios();          
     if (usuarios.empty()) {
         std::cerr << "Error cargando usuarios.txt\n";
         return 1;
@@ -40,6 +40,7 @@ int main() {
             );
         }
     });
+      // Endpoint /datos
     svr.Get("/datos", [&](const Request& req, Response& res) {
         if (!req.has_header("Authorization")) {
             res.status = 401;
@@ -78,3 +79,4 @@ int main() {
     std::cout << "Servidor corriendo en http://localhost:8080\n";
     svr.listen("0.0.0.0", 8080);
 }
+
