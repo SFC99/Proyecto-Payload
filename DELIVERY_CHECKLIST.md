@@ -2,7 +2,7 @@
 # Checklist de Entrega del Proyecto
 
 - [ ] **README.md** con instrucciones reproducibles.  
-- [ ] **ETHICS.md** final firmado.  
+- [x] **ETHICS.md** final firmado.  
 - [ ] **METADATA.md** con configuración de VMs y herramientas.  
 - [ ] **CHANGELOG.md** actualizado.  
 - [ ] **/src** con código completo y documentado.  
