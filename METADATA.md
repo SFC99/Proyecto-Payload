@@ -1,6 +1,6 @@
 # METADATA — Proyecto Payload
 
-## Maquinas virtuales utilizadas:
+### Maquinas virtuales utilizadas:
 VM Servidor (Kali Linux)
 -Sistema operativo: Kali Linux 2024.1
 -IP interna: 192.168.10.1
@@ -13,7 +13,7 @@ VM Cliente (Windows 10)
 -Compilador: MinGW (MSYS2 UCRT64)
 -Binario generado: cliente.exe
 
-## Herramientas usadas:
+### Herramientas usadas:
 Ghidra 10.x: /analysis/AnalisisServidor_2025_11_14.gar
 Visual Studio Code
 VirtualBox
