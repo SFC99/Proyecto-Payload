@@ -12,4 +12,4 @@
 * \[x] **/evidence** con mín. 3 capturas y video demo corto.
 * \[x] **DELIVERY\_CHECKLIST.md** con hash final y tag creado.
 * \[x] video\_Martinez\_Sofia.mp4 — 8f56e23  — duración 04:01.
-* \[x] video\_Morales\_Angel.mp4 - bd627a7 - 2:33
+* \[x] video\_Morales\_Angel.mp4 — bd627a7 — duració 2:33.
