@@ -13,5 +13,6 @@
 - [x] **/evidence** con mín. 3 capturas y video demo corto.  
 - [x] **DELIVERY_CHECKLIST.md** con hash final y tag creado.
 - [x] video_Martinez_Sofia.mp4 — 8f56e23  — duración 04:01.
+- [ ] vieo_Morales_Angel.mp4 - 
 
       
