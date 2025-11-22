@@ -11,4 +11,7 @@
 - [x] **/docs/tests.md** con comandos y outputs.  
 - [x] **/analysis** con exportaciones de ingeniería inversa.  
 - [x] **/evidence** con mín. 3 capturas y video demo corto.  
-- [x] **DELIVERY_CHECKLIST.md** con hash final y tag creado.  
+- [x] **DELIVERY_CHECKLIST.md** con hash final y tag creado.
+- [x] video_Martinez_Sofia.mp4 — 8f56e23  — duración 04:01.
+
+      
